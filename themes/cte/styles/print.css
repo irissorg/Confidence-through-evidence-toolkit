@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* @file print.css
+ * General print stylesheet for Nitobe. http://drupal.org/projects/nitobe
+ *
+ * $Id: print.css,v 1.1.2.1 2009/08/01 17:58:31 shannonlucas Exp $
+ */
+ 
+#search-top,
+#header-links,
+#ctefooter,
+#title-group img,
+.field-field-activity-glossaryterms,
+.views-field-field-question-activities-nid,
+.breadcrumb,
+.meta,
+.print-link,
+.moreinfolink		{ display: none; }
+hr					{ border: none; background: white; height: 1px; margin: 1em 0; }
+body *				{ color: black; }
+a:link, a:visited 	{ text-decoration: none !important; color: #3b73b9; }
+label				{ font-size: 1.1em; font-weight: bold; margin: 1em 0; }
+.views-row			{ margin: 1em 0; }
+.views-field-title	{ font-style: italic; font-weight: bold; }
+#site-title a 		{ color: black; }
+#site-title {
+	font: bold 2.57em/1em 'Helvetica Neue',helvetica,Arial,sans-serif;
+	font-style: italic;
+	text-align: left;
+	margin: .5em 0 1em 0;
+	clear: both;
+	display: block;
+}
+.view-cte-questions li > .views-field-title a { color: black; }
+.view-cte-questions li > .views-field-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.25em;
+	color: black;
+	line-height: 1.11em;
+	border-top: .25em solid silver;
+	padding-top: 1em;
+	margin: 2em 0 1em 0; 
+}
+#footer-area		{ font-size: .86em; border-top: .26em solid silver; padding-top: 1.5em; }
+#footer-area p a	{ color: black; }
+#irisslink			{ font-weight: bold; }
+.my-answer			{ display: block !important; }

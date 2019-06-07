@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/**
+ * @file fix-ie.css
+ * Fixes for Internet Explorer – all versions.
+ *
+ */
+
+ul#secondary-nav,
+.tabs.secondary				{ filter:alpha(opacity=60); zoom: 1; }
+#search-top .form-submit	{ filter:alpha(opacity=0); zoom: 1; }
+.ui-dialog-overlay			{ filter:alpha(opacity=50); zoom: 1; }
+.front h2					{ position: absolute; top: 151px; right: 70px; }
+#footer						{ font-size: 11px; }
+
+/*  survey promo - temporary */
+.survey-promo a				{ padding-top: 56px; height: 34px; }
